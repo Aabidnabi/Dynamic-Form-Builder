@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
     <Box sx={{ flexGrow: 1, minHeight: '100vh', bgcolor: 'background.default' }}>
       <AppBar position="static" elevation={0}>
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 600 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 600 ,textAlign :'center'}}>
             Dynamic Form Builder
           </Typography>
         </Toolbar>

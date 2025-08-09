@@ -14,7 +14,7 @@ import MyForms from './pages/MyForms/MyForms';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2',
+      main: '#0d9488',
       light: '#42a5f5',
       dark: '#1565c0',
     },
@@ -24,7 +24,7 @@ const theme = createTheme({
       dark: '#9a0036',
     },
     background: {
-      default: '#f5f5f5',
+      default: '#e6fffa',
       paper: '#ffffff',
     },
   },
