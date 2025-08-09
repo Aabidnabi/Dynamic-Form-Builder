@@ -24,14 +24,7 @@ This repository contains a **Dynamic Form Builder** application developed using 
 
 ## Live Demonstration
 
-A live deployment of the application is available at: [Insert Live Demo URL]
-
-### Demo Preview
-
-![Form Builder Demo](./demo/form-builder-demo.gif)  
-*Note: Replace with your actual demo GIF or video.*
-
----
+A live deployment of the application is available at: [https://dynamic-form-builder-ivory.vercel.app/]
 
 ## Key Features
 
