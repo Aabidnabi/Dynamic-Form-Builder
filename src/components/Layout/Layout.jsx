@@ -52,7 +52,12 @@ const Layout = ({ children }) => {
               '& .MuiTab-root': {
                 minHeight: 64,
                 textTransform: 'none',
-                fontSize: '1rem',
+                fontSize: {
+                xs: '10px',  
+                sm: '12px',  
+                md: '1rem',  
+              },
+                whiteSpace:'nowrap',
                 fontWeight: 500,
               },
             }}
