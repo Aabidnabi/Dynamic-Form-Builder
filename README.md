@@ -1,78 +1,78 @@
-# Dynamic Form Builder — upliance.ai Associate Software Developer Assignment
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+# Dynamic Form Builder  
+*Associate Software Developer Assignment — upliance.ai*
 
 ---
 
 ## About upliance.ai
 
-**upliance.ai** has built India's first AI cooking assistant designed especially for beginners — simplifying and automating all parts of cooking for yourself. We're on a mission to revolutionize home appliances in India by blending AI innovation with everyday utility.
+**upliance.ai** is pioneering India's first AI-powered cooking assistant, specially designed to simplify and automate cooking for beginners. Our mission is to revolutionize home appliances by integrating cutting-edge AI technology to enhance everyday cooking experiences for young India.
 
-As a disruptive startup collaborating closely with industry leaders like OpenAI, we push the boundaries of what smart appliances can do — fast and creatively.
-
----
-
-## Project Overview
-
-This project is a **Dynamic Form Builder** built using **React**, **TypeScript**, **MUI**, and **Redux**. It allows users to:
-
-- Create fully customizable dynamic forms with various field types and validations.
-- Preview forms exactly as an end user would experience them.
-- Save multiple form configurations persistently in the browser using `localStorage`.
-- Interact with derived fields calculated based on other fields.
+As an innovative startup collaborating with industry leaders such as OpenAI, we are committed to pushing the boundaries of smart appliance capabilities with speed and precision.
 
 ---
 
-## Live Demo
+## Project Summary
 
-🎥 **Project Preview:**  
-You can see the live demo here: [Your Live Link]  
+This repository contains a **Dynamic Form Builder** application developed using **React**, **TypeScript**, **Material-UI (MUI)**, and **Redux Toolkit**. The application enables users to:
 
-Or watch the demonstration below:
+- Create fully customizable dynamic forms with multiple field types and complex validation rules.
+- Preview the form as it would appear to an end user, including real-time validation feedback.
+- Save and manage multiple form configurations persistently using browser `localStorage`.
+- Implement derived fields that calculate values based on other field inputs.
+
+---
+
+## Live Demonstration
+
+A live deployment of the application is available at: [Insert Live Demo URL]
+
+### Demo Preview
 
 ![Form Builder Demo](./demo/form-builder-demo.gif)  
-*Replace with your actual GIF or video preview.*
+*Note: Replace with your actual demo GIF or video.*
 
 ---
 
-## Features
+## Key Features
 
-### 1. Form Builder (`/create`)
+### Form Builder (`/create`)
 
-- Add fields: Text, Number, Email, Textarea, Select, Radio, Checkbox, Date.
-- Configure fields:
-  - Labels, Required toggle, Default values.
-  - Validations: Required, min/max length, email format, custom password rules.
-- Derived Fields:
-  - Define formulas based on parent fields (e.g., calculate Age from DOB).
-- Reorder and delete fields dynamically.
-- Save form schema with a custom form name in `localStorage`.
+- Support for multiple input field types: Text, Number, Email, Textarea, Select, Radio, Checkbox, and Date.
+- Field configuration options include:
+  - Custom labels, required toggles, and default values.
+  - Validation rules such as mandatory inputs, length restrictions, email format verification, and custom password policies.
+- Support for **Derived Fields**:
+  - Define fields whose values are computed based on one or more parent fields.
+  - Provide custom formulas or logic (e.g., calculating Age from Date of Birth).
+- Intuitive interface to reorder or remove fields.
+- Ability to save form schemas by specifying a form name; all data is stored in `localStorage` without backend dependencies.
 
-### 2. Form Preview (`/preview`)
+### Form Preview (`/preview`)
 
-- Render the form for end-user interaction.
-- Real-time validations with error messages.
-- Auto-update derived fields as inputs change.
+- Interactive rendering of the constructed form.
+- Real-time input validation with user-friendly error messages.
+- Automatic updating of derived fields based on parent field changes.
 
-### 3. My Forms (`/myforms`)
+### My Forms (`/myforms`)
 
-- List all saved forms.
-- Show form name and creation date.
-- Navigate to preview on form selection.
-
----
-
-## Tech Stack
-
-- **React** with **TypeScript**  
-- **Redux Toolkit** for predictable state management  
-- **Material-UI (MUI)** for UI components  
-- **localStorage** for data persistence  
-- Form validation logic with custom rules and derived field computations
+- Displays a comprehensive list of all saved forms.
+- Shows form metadata including name and creation date.
+- Enables quick access to form previews.
 
 ---
 
-## How to Run Locally
+## Technology Stack
+
+- **React** (with **TypeScript**) for robust frontend development.
+- **Redux Toolkit** for scalable and maintainable state management.
+- **Material-UI (MUI)** for consistent, accessible UI components.
+- **Browser localStorage** for persistent form schema storage.
+
+---
+
+## Setup and Installation
+
+To run the project locally:
 
 ```bash
 git clone https://github.com/your-username/dynamic-form-builder.git
