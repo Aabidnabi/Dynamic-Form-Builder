@@ -9,11 +9,13 @@ import {
   RadioButtonChecked as RadioIcon,
   CheckBox as CheckboxIcon,
   DateRange as DateIcon,
+  Email,
 } from '@mui/icons-material';
 import { addField } from '../../../redux/slices/formBuilderSlice';
 
 const fieldTypes = [
   { type: 'text', label: 'Text', icon: <TextIcon />, color: '#1976d2' },
+  { type: 'email', label: 'email', icon: <Email />, color: '#DA70D6' },
   { type: 'number', label: 'Number', icon: <NumberIcon />, color: '#388e3c' },
   { type: 'textarea', label: 'Textarea', icon: <TextareaIcon />, color: '#f57c00' },
   { type: 'select', label: 'Select', icon: <SelectIcon />, color: '#7b1fa2' },

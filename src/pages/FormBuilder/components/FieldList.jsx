@@ -22,12 +22,14 @@ import {
   Delete as DeleteIcon,
   DragIndicator as DragIcon,
   Functions as FormulaIcon,
+  Email,
 } from '@mui/icons-material';
 import { deleteField } from '../../../redux/slices/formBuilderSlice';
 
 const fieldIcons = {
   text: <TextIcon />,
   number: <NumberIcon />,
+  email:<Email/>,
   textarea: <TextareaIcon />,
   select: <SelectIcon />,
   radio: <RadioIcon />,

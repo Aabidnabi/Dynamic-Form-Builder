@@ -6,7 +6,6 @@ import {
   FormControlLabel,
   Switch,
   Box,
-  Divider,
   Accordion,
   AccordionSummary,
   AccordionDetails,
